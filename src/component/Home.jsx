@@ -1,5 +1,6 @@
 import React from 'react'
 import Home_blog from './Home-blog'
+import Form_1 from './Form-1'
 
 const Home = () => {
   return (
@@ -61,6 +62,34 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="container-fluid p-5">
+        <div className="text-center m-4">
+          <h2 className='fnt-1 d-inline'
+            style={{ border: "3px solid var(--primary-text-background-color)", borderTop: "0", borderRight: "0", borderLeft: "0" }}>
+            Tools
+          </h2>
+        </div>
+        <div className="row p-5">
+          <div className="col-lg-3 offset-lg-2 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+          <div className="col-lg-3 offset-lg-2 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+        </div>
+        <div className="row p-5">
+          <div className="col-lg-3 offset-lg-1 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='rounded-circle bgclr-1 h-100 m-auto position-relative'>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+          </div>
+          <div className="col-lg-3 offset-lg-4 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+        </div>
+        <div className="row p-5">
+          <div className="col-lg-3 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+          <div className="col-lg-3 offset-lg-6 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+        </div>
+        <div className="row p-5">
+          <div className="col-lg-3 offset-lg-2 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+          <div className="col-lg-3 offset-lg-2 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+        </div>
+      </div>
 
       <div className="container-fluid p-5">
         <div className="text-center">
@@ -70,27 +99,11 @@ const Home = () => {
           <p className="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores provident <br />
             a sunt porro iste enim laborum rerum soluta quibusdam, itaque expedita voluptatem!</p>
         </div>
-        <div className="mt-5 bg-dark rounded-1 p-5">
-          <form>
-            <div className="row">
-              <div className="col-md-3">
-                <label className="form-label fs-3" htmlFor="Date">Date Of Birth</label> <br />
-                <input type="date" id='Date' className="form-control" />
-              </div>
-              <div className="col-md-3">
-                <label className="form-label fs-3" htmlFor="Time">Time Of Birth</label> <br />
-                <input type="time" id='Time' className="form-control" />
-              </div>
-              <div className="col-md-3">
-                <label className="form-label fs-3" htmlFor="Text">Place Of Birth</label> <br />
-                <input type="text" id='Text' className="form-control" />
-              </div>
-              <div className="col-md-3 df">
-              <button type="button" className="btn btn-lg rounded-0 w-100  bgclr-1 fnt-3 fw-bold mt-4 rounded-2"> Read more</button>
-              </div>
-            </div>
-          </form>
-        </div>
+
+
+        <Form_1 />
+
+
       </div>
 
     </>

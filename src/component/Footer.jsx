@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3 ps-5">
+                <div className="col-lg-3 ps-xl-5">
                     <div className="mt-4">
                         <h2 className='fnt-1 pb-1 mb-5 d-inline' style={{ border: "3px solid var(--primary-text-background-color)", borderTop: "0", borderRight: "0", borderLeft: "0" }}>Our Services</h2>
                     </div>

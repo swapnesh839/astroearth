@@ -14,7 +14,9 @@ const Home = () => {
           <img src="https://astroearth.org/wp-content/uploads/2023/07/astrologer-logo-2_cropped.png" className="d-inline-block align-text-top w-75 ms-5 mt-5" />
         </div>
         <div className="col-lg-6">
-          <h2 className='fnt-1 mb-5 d-inline'
+
+          hjvhjvjh
+          {/* <h2 className='fnt-1 mb-5 d-inline'
             style={{ border: "3px solid var(--primary-text-background-color)", borderTop: "0", borderRight: "0", borderLeft: "0" }}>Know About
           </h2>
           <p className="mt-5">Welcome to Astroearth, your celestial gateway to the
@@ -43,7 +45,7 @@ const Home = () => {
               <p>Contact Our Expert Astrologers</p>
               <h4 className='tclr-1'>+ (91) 90400-92651</h4>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -69,25 +71,63 @@ const Home = () => {
             Tools
           </h2>
         </div>
+
+
         <div className="row p-5">
-          <div className="col-lg-3 offset-lg-2 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
-          <div className="col-lg-3 offset-lg-2 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
-        </div>
-        <div className="row p-5">
-          <div className="col-lg-3 offset-lg-1 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
-            <div className='rounded-circle bgclr-1 h-100 m-auto position-relative'>
+          <div className="col-lg-3 offset-lg-2 text-center p-4 hexagon-background hbr-1 pointer d-flex" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5 '>
               <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
             </div>
+            <h5 className="ms-4">Kundli</h5>
           </div>
-          <div className="col-lg-3 offset-lg-4 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+          <div className="col-lg-3 offset-lg-2 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer d-flex" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5 '>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+            <h5 className="ms-4">Kundli</h5>
+          </div>
         </div>
         <div className="row p-5">
-          <div className="col-lg-3 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
-          <div className="col-lg-3 offset-lg-6 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+          <div className="col-lg-3 offset-lg-1 text-center p-4 hexagon-background hbr-1 pointer d-flex " style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5 '>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+            <h5 className="ms-4">Kundli</h5>
+          </div>
+          <div className="col-lg-3 offset-lg-4 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer d-flex" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5  d-flex'>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+            <h5 className="ms-4">Kundli</h5>
+          </div>
         </div>
         <div className="row p-5">
-          <div className="col-lg-3 offset-lg-2 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
-          <div className="col-lg-3 offset-lg-2 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >hgdc</div>
+          <div className="col-lg-3 text-center p-4 hexagon-background hbr-1 pointer d-flex" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5 '>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+            <h5 className="ms-4">Kundli</h5>
+          </div>
+          <div className="col-lg-3 offset-lg-6 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer d-flex" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5 '>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+            <h5 className="ms-4">Kundli</h5>
+          </div>
+        </div>
+        <div className="row p-5">
+          <div className="col-lg-3 offset-lg-2 text-center p-4 hexagon-background hbr-1 pointer d-flex" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5 '>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+            <h5 className="ms-4">Kundli</h5>
+          </div>
+          <div className="col-lg-3 offset-lg-2 mt-lg-0 mt-5 text-center p-4 hexagon-background hbr-1 pointer d-flex" style={{ backgroundColor: "var(--primary-text-background-color-sub)" }} >
+            <div className='hexagon-background bgclr-1 h-100 w-25 position-relative ms-5 '>
+              <i className="fa-solid fa-phone fa-lg position-absolute top-50 start-50 translate-middle" style={{ color: "white" }}></i>
+            </div>
+            <h5 className="ms-4">Kundli</h5>
+          </div>
         </div>
       </div>
 
